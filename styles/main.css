@@ -1,0 +1,95 @@
+.main-text-main {
+  text-align: center;
+}
+
+.main-title {
+  opacity: 0;
+  font-size: 45px;
+  color: #061e37;
+  font-weight: 600;
+  font-family: "Raleway";
+  text-align: center;
+  animation: fadeIn 0.7s forwards 1.2s;
+}
+
+.sub-title {
+  opacity: 0;
+  margin-top: -20px;
+  font-size: 25px;
+  color: #b0bec5;
+  font-weight: 600;
+  font-family: "Raleway";
+  text-align: center;
+  animation: fadeIn 0.7s forwards 1.2s;
+}
+
+.conditions-list {
+  height: 400px;
+  width: 100%;
+}
+
+.conditions-list .wrapper {
+  box-sizing: border-box;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 300px;
+  width: 100%;
+}
+
+
+.description {
+  width: 350px;
+height: 52px;
+font-size: 15px;
+line-height: 20px;
+color: #78909c;
+font-weight: 400;
+font-family: "Raleway";
+text-align: center;
+}
+
+
+.conditions-list__item {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 25px;
+  color: #061e37;
+  font-weight: 600;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.conditions-list__item:nth-child(2) {
+  transform: translateY(40px);
+}
+
+.languages {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: scale(0.7);
+  display: flex;
+  align-items: center; /* Центрирование по вертикали */
+}
+
+.languages img {
+  margin-right: 10px; /* Отступ между изображением и ссылками */
+}
+
+.language-links {
+  display: flex;
+  flex-direction: column; /* Размещение ссылок в столбец */
+}
+
+.lang-link {
+  font-size: 30px;
+  color: black;
+  text-decoration: none; /* Убрать подчеркивание у ссылок */
+  margin-bottom: 5px; /* Отступ между ссылками */
+}
